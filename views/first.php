@@ -23,7 +23,7 @@
 				</div>
 
 				<div class="col s12 m8 l9">
-					<?= json_encode($objects)  ?>
+					<?= "diego es puto js"  ?>
 				</div>
 		    </div>
 
@@ -35,6 +35,14 @@
 		<!--Import vue.js-->
 		<script src="https://unpkg.com/vue"></script>
 
+		<script type="text/javascript">
+			objects = <?= json_encode($objects)  ?>;
+			letters = <?= json_encode($letters)  ?>;
+			numbers = <?= json_encode($numbers)  ?>;
+			console.log(objects,letters,numbers);
+		</script>
 		<script type="text/javascript" src="js/no-la-micorriza.js"></script>
+
+
 	</body>
 </html>
