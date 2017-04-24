@@ -1,0 +1,27 @@
+{
+    "name": "cltvo/diejo-js",
+	"description": "diego js tester",
+	"keywords": ["diego-js"],
+    "license": "MIT",
+	"type": "tester",
+    "authors": [
+        {
+            "name": "fectda",
+            "email": "fectda@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.0.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.0.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"DiegoJS\\": "tester/"
+		},
+		"files": [
+			"inc/helpers.php"
+		]
+	}
+}
