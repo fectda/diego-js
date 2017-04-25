@@ -68,6 +68,8 @@
 							<a class="btn-floating btn-large waves-effect waves-light light-blue" @click = "selectDigit(object.digit);filterArray()">{{object.digit}}</a>
 							<a class="btn-floating btn-large waves-effect waves-light light-blue" @click = "selectLetter(object.letter);filterArray()">{{object.letter}}</a>
 						</li>
+
+						<li class="collection-item center-align" v-if = "filter_array.length  == 0" > Muera el diego </li>
 					</ul>
 				</div>
 			</div>
