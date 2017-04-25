@@ -16,8 +16,8 @@ class First extends Assignment
 
 	public function getArgs(){
 		return [
-			"letters"	=> range(0,9),
-			"numbers"	=> range(chr(97),chr(122)),
+			"numbers"	=> range(0,9),
+			"letters"	=> range(chr(97),chr(122)),
 			"objects"	=> $this->getObjects()
 		];
 	}
