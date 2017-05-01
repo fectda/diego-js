@@ -6,8 +6,10 @@ error_reporting(E_ALL);
 
 use DiegoJS\Tester;
 use DiegoJS\HomeWork\First;
+use DiegoJS\HomeWork\Second;
 
 // $home_work = First::make( [150] );
+$home_work = Second::make( [150] );
 Tester::init($home_work);
 
 die;
