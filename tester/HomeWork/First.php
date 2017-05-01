@@ -9,9 +9,9 @@ class First extends Assignment
 	protected $view = "first";
 	protected $count = 0 ;
 
-	function __construct(int $count )
+	function __construct( array $args)
 	{
-		$this->count = $count;
+		$this->count = $args[0];
 	}
 
 	public function getArgs(){

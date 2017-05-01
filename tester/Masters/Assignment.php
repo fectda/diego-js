@@ -16,4 +16,7 @@ abstract class Assignment implements HomeWorks  {
 	}
 
 
+	public static function make(array $args){
+		return new static($args);
+	}
 }

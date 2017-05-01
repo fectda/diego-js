@@ -103,7 +103,7 @@
 			};
 
 		</script>
-		<script type="text/javascript" src="js/no-la-micorriza.js"></script>
+		<script type="text/javascript" src="js/no-la-micorriza/first.js"></script>
 
 	</body>
 </html>
